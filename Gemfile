@@ -13,6 +13,12 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+gem 'gravatar_image_tag'
+gem 'devise'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'bulma-rails'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 
 
 group :development, :test do
@@ -21,6 +27,9 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'sqlite3'
+  gem 'better_errors', '~> 2.7', '>= 2.7.1'
+  gem 'guard', '~> 2.16', '>= 2.16.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
 end
 
 group :development do
